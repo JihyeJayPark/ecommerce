@@ -21,6 +21,7 @@
     // position: sticky and top:px go together
     z-index: 10;
     border-bottom: 1px solid rgba(8, 75, 109, 0.08);
+    background-color: $solidWhite;
 
     .wrapper{
         display: flex;
@@ -57,7 +58,7 @@
     max-width: 500px;
     position: fixed;
     top: 0;
-    // left: -500px;
+    left: -500px;
     padding: 35px 50px;
 
     .buttonContainer {
