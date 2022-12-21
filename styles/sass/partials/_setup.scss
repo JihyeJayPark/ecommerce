@@ -255,3 +255,7 @@ html {
     overflow: hidden;
 }
 
+img {
+    max-width: 100%; //make sure it does stick out of the parent box
+    display: block; //change default(inline) to block
+}
